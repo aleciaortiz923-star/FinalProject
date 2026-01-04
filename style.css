@@ -31,9 +31,6 @@ p {
     line-height: 1.5;
 }
 
-div {
-    display: flex;
-}
 
 a:hover {
     opacity: 0.7;
@@ -44,6 +41,7 @@ li {
 }
 
 .row {
+    display: flex;
     width: 100%;
     max-width: 1200px;
     margin: 0 auto;
@@ -144,10 +142,12 @@ section {
 
 .header__description {
     width: 40%;
+    margin: 0 auto;
 }
 
-.header__descrption--para {
+.header__description--para {
     margin:  32px 0;
+   
 }
 
 .header__email {
@@ -163,8 +163,8 @@ section {
 .header__email--btn {
     z-index: 2;
     margin: 8px;
-    height: calc(100 - 16px);
     border-radius: 500px;
+    height: calc(100% - 16px);
     width: 160px;
     border: none;
     background-color: #6415ff;
@@ -208,7 +208,7 @@ section {
     border-color: rgba(100, 21, 255);
 }
 
-.header__cursomer--title {
+.header__customer--title {
     margin-top: 80px;
     color: #a0aec0;
     font-size: 12px;
