@@ -216,7 +216,7 @@ section {
     padding: 0 32px;
 }
 
-.header .row {
+header .row {
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -923,7 +923,7 @@ footer {
     align-items: center;
 }
 
-.footer__logo--img {
+.footer__img {
     height: 32px;
     width: 32px;
 }
