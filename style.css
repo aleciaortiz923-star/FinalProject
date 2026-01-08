@@ -1081,7 +1081,7 @@ footer {
     }
 
     .btn__menu {
-        display: block;
+       visibility: visible;
     }
 
     header .row {
