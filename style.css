@@ -221,6 +221,11 @@ nav {
     right: 18px;
 }
 
+.btn__menu--img {
+    width: 24px;
+    height: 24px;
+}
+
 .menu {
     position: fixed;
     top: 0;
